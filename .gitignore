@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Temporary uploaded PDFs (keep the folder itself)
+uploads/*
+!uploads/.gitkeep
+
+# Vercel local configuration
+.vercel/
+
+# Logs and OS files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+.vercel
+.env*
